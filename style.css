@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+  text-align: center;
+  font-family: 'Covered By Your Grace', cursive;
+  color: white;
+  background: #050505;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+h1 {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  max-width: 400px;
+  width: 100%;
+  height: 50px;
+}*/
+
+.back-video {
+  position: absolute; 
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 3750px;
+  height: auto;
+  opacity: 0.1;
+}
+
+#days {
+  font-size: 200px;
+  color: #ce4b47;
+}
+#hours {
+  font-size: 150px;
+  color: #e27b2d;
+}
+#minutes {
+  font-size: 100px;
+  color: #d6b333;
+}
+#seconds {
+  font-size: 50px;
+  color: #9ac236;
+}
+
+div {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+}
+
+/* @media (max-width: 768px) { 
+    h3 {
+      margin-top: 50cm;
+      font-size: 40px;
+      padding: 25px;
+      border-bottom: 1px solid;
+      border-radius: 5%;
+    }
+
+    span {
+      display: block;
+      font-size: 20px;
+      color: rgb(158, 1, 1);
+    }
+  } **/
+
+span {
+  display: block;
+  font-size: 27px;
+  color: rgb(255, 255, 255);
+}
+
+
+h3 {
+  padding: 30px;
+  border-bottom: 3px solid;
+  border-radius: 3%;
+  font-size: 70px;
+  margin-left: 0px;
+  margin-top: 3cm;
+  font-family: 'Satisfy', cursive;
+}
+
+h5 {
+  padding: 30px;
+  border: 2px solid;
+  border-radius: 3%;
+  font-size: 40px;
+  margin-left: 0px;
+  font-family: 'Anek Bangla', sans-serif;
+  word-spacing: 7px;
+}  
+
+
+
